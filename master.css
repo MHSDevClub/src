@@ -3,11 +3,17 @@
 .hover-maroon:hover, .hover-maroon:focus { color: #85144b; }
 .hover-bg-maroon:hover, .hover-bg-maroon:focus { background: #85144b; }
 
+.h6 { height: 32rem; }
+.h7 { height: 64rem; }
+
 @media screen and min-width(30em) {
   .maroon-ns { color: #85144b; }
   .bg-maroon-ns { color: #85144b; }
   .hover-maroon-ns:hover, .hover-maroon-ns:focus { color: #85144b; }
   .hover-bg-maroon-ns:hover, .hover-bg-maroon-ns:focus { background: #85144b; }
+
+  .h6-ns { height: 32rem; }
+  .h7-ns { height: 64rem; }
 }
 
 @media screen and min-width(30em) and max-width(60em) {
@@ -15,6 +21,9 @@
   .bg-maroon-m { color: #85144b; }
   .hover-maroon-m:hover, .hover-maroon-m:focus { color: #85144b; }
   .hover-bg-maroon-m:hover, .hover-bg-maroon-m:focus { background: #85144b; }
+
+  .h6-m { height: 32rem; }
+  .h7-m { height: 64rem; }
 }
 
 @media screen and min-width(60em) {
@@ -22,4 +31,7 @@
   .bg-maroon-l { color: #85144b; }
   .hover-maroon-l:hover, .hover-maroon-l:focus { color: #85144b; }
   .hover-bg-maroon-l:hover, .hover-bg-maroon-l:focus { background: #85144b; }
+
+  .h6-l { height: 32rem; }
+  .h7-l { height: 64rem; }
 }
